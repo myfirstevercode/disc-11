@@ -28,7 +28,7 @@ export class ServerQueue {
     private _lastVSUpdateMsg: Snowflake | null = null;
     private _lastMusicMsg: Snowflake | null = null;
     private _skipVoters: Snowflake[] = [];
-    private _volume = 100;
+    private _volume = 20;
 
     public constructor(public readonly textChannel: TextChannel) {
         Object.defineProperties(this, {
